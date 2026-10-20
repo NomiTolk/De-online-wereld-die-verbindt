@@ -1,5 +1,5 @@
 body{
-    background-image:url(../Images/online_wereld.svg);
+    background-image:url(../Images/Online_wereld_versie2.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,11 +15,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: #ff7bac;
     font-family: "modulator-text-vf", sans-serif;
     font-variation-settings: "wdth" 250;
     font-size: 2.5em;
-    text-shadow: #ffe484 -10px -10px;
+    text-shadow: #ffee8c -10px -10px;
     margin-bottom: 10%;
 }
 
@@ -27,7 +28,7 @@ li{
     list-style: none;
 }
 body>ul a{
-    color: #ffe484;
+    color: #ffee8c;
     background-color: transparent;
     font-family: "cc-pixel-arcade-display", sans-serif;
     font-weight: 400;
@@ -39,13 +40,16 @@ body>ul a{
 a:hover{
     color: #7f7979;
 }
+a:focus{
+    color: #7f7979;
+}
 
 .titel2{
     color: #ff7bac;
     font-family: "modulator-text-vf", sans-serif;
     font-variation-settings: "wdth" 250;
-    font-size: 5em;
-    text-shadow: #ffe484 -5px -5px;
+    font-size: 3.5em;
+    text-shadow: #f9f691 -5px -5px;
 
 }
 ul{
@@ -60,9 +64,9 @@ a{
     font-family: "cc-pixel-arcade-display", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
+    font-size: 2em;
     text-decoration: none;
-    background-color: #ffe484;
+    background-color: #ffee8c;
     padding: 0.5em;
     border-radius: 20px;
     transition: all 300ms ease;
@@ -73,20 +77,21 @@ h2{
     font-family: "trilby", serif;
     font-weight: 700;
     font-style: normal; 
-    font-size: 2.5em;
+    font-size: 2em;
 }
 p{
     color: #7f7979;
     font-family: "trilby", serif;
     font-weight: 400;
     font-style: normal; 
-    font-size: 2em;
+    font-size: 1.5em;
 }
 article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffe484;
+    background-color: #ffee8c;
+    border:solid  0.3em #ff7bac;
     border-radius: 2em;
     padding-left: 3%;
     padding-right: 3%;
@@ -102,13 +107,28 @@ main>ul a{
     font-family: "trilby", serif;
     font-weight: 400;
     font-style: normal; 
-    font-size: 2em;
+    font-size: 1.2em;
+    text-align: left;
+    text-indent: 0;
+}
+main.bronnen ul{
+  display: block;
+  gap: 1.5em;
+  list-style: none;
+  padding: 0;
+  list-style: disc;
+}
+main.bronnen a:hover{
+color: #ff7bac;
+}
+main.bronnen a:focus{
+color: #ff7bac;
 }
 .bronnen{
-    background-color: #ffe484;
+    display: block;
+    background-color: #ffee8c;
     border-radius: 2em;
     margin: 5em;
     padding: 2em;
-    flex-direction: row;
-
+    text-indent: 0%;
 }
